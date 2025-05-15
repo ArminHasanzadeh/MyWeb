@@ -1,0 +1,22 @@
+.TextBox{
+    >button{
+        border: 2px solid var(--FontTextcherColor);
+    }
+}
+.Content-me{
+    transition: 0.5s;
+    &:hover{
+        background-color: rgba(199, 120, 221, 0.178);
+    }
+}
+.BorderX{
+    border: 4px solid var(--FontTextColor);
+    color: white
+}
+.BorderX2{
+    border-left: 4px solid var(--FontTextColor);
+    border-right: 4px solid var(--FontTextColor);
+    border-bottom: 4px solid var(--FontTextColor);
+    color: white;
+
+}
