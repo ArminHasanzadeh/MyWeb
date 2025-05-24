@@ -1,10 +1,15 @@
        :root{
         --BgColor: rgb(40, 44, 51);
         
+        --FontTextcherColor:rgb(199, 120, 221);
+            --FontTextColor :#ABB2BF;
        }
+  
+
 body{
   margin: 0;padding: 0;box-sizing: border-box;
   background-color: var(--BgColor);
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
+
 }

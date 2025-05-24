@@ -1,7 +1,4 @@
-:root{
-    --FontTextcherColor:rgb(199, 120, 221);
-        --FontTextColor :#ABB2BF;
-}
+
 .NavBar{
     >ul{
         gap: 3rem;
