@@ -1,5 +1,6 @@
 
 .NavBar{
+   
     >ul{
         gap: 3rem;
         >li{
@@ -28,4 +29,12 @@
 
         }
     }
+}
+
+.Hamberger-Box{
+   transition: 0.5s;
+   
+}
+.box-click{
+    transition: 0.5s;
 }

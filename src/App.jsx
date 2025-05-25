@@ -19,8 +19,9 @@ function App() {
  
 
   return (
-    <main className=' flex justify-center items-end flex-col'>
+    <>
      <Header />
+    <main className=' flex justify-center items-end flex-col overflow-hidden'>
      <TopMain />
      <ProjectBox />
      <Skills />
@@ -28,6 +29,7 @@ function App() {
      <Contacts />
      <Footer />
     </main>
+    </>
   )
 }
 
