@@ -2,8 +2,8 @@ import React from "react";
 
 function Header(props) {
   return (
-    <header className="w-full h-auto flex justify-center items-center p-7 ">
-      <div className="w-[50%] flex items-center justify-start gap-3 text-2xl pl-20">
+    <header className="w-full h-auto flex justify-center items-center p-7 sticky">
+      <div className="w-[50%] flex items-center justify-start gap-3 text-2xl pl-40 ">
         <svg
         
           width="20"
@@ -19,9 +19,9 @@ function Header(props) {
             fill="white"
           />
         </svg>
-        <p className="text-white">Elias</p>
+        <p className="text-white">Armin</p>
       </div>
-      <div className="NavBar w-[50%] flex items-center justify-end pr-20 ">
+      <div className="NavBar w-[50%] flex items-center justify-end pr-40 ">
         <ul className="flex justify-center items-center ">
             <li><span>#</span><a className="text-white">home</a></li>
             <li><span>#</span><a>works</a></li>

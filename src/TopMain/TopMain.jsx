@@ -4,8 +4,8 @@ import ImgMan from "../../public/FirstImgMan.png";
 function TopMain(props) {
   return (
     <>
-      <section className="w-full h-[420px]  flex m-24">
-        <section className="w-[50%] h-[100%] flex justify-center items-center flex-col pl-60">
+      <section className="w-full h-[420px]  flex m-24 ">
+        <section className="w-[80%] h-[100%] flex justify-center items-end flex-col">
           <div className="TextBox ">
             <p className="text-3xl w-[60%] text-white ">
               Elias is a{" "}
@@ -25,15 +25,15 @@ function TopMain(props) {
             </button>
           </div>
         </section>
-        <section className="relative  w-[50%] h-[100%] flex justify-end items-end ">
-          <div className="absolute z-10 top-0 right-0-0">
+        <section className="relative  w-[50%] h-[100%] flex justify-start items-end ">
+          <div className="absolute z-10 top-0 left-0">
             <img
               className=" object-cover w-[457px] h-[367px]"
               src={ImgMan}
               alt=""
             />
           </div>
-          <div className="absolute z-0 top-20 right-70 ">
+          <div className="absolute z-0 top-20 left-0 ">
             <svg
               width="156"
               height="156"
@@ -77,7 +77,7 @@ function TopMain(props) {
             </svg>
           </div>
 
-          <div className="absolute z-20 top-60 right-0">
+          <div className="absolute z-20 top-60 left-90">
             <svg
               width="84"
               height="84"
@@ -112,7 +112,7 @@ function TopMain(props) {
               <circle cx="82" cy="82" r="2" fill="#ABB2BF" />
             </svg>
           </div>
-          <div className="w-[50%] h-[10%] border-1 gap-3 mb-1 flex justify-start items-center pl-2 text-[var(--FontTextColor)]">
+          <div className="w-[70%] h-[10%] border-1 gap-3 mb-1 flex justify-start items-center pl-2 text-[var(--FontTextColor)]">
             <span className="w-[15px] h-[15px]  bg-[var(--FontTextcherColor)]"></span>
             <p className="text-[var(--FontTextColor)]">
               Currently working on{" "}

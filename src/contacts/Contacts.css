@@ -1,0 +1,15 @@
+.Contacts {
+    color: var(--FontTextColor);
+}
+.Contacts-Me{
+    color: var(--FontTextColor);
+    >div{
+        >a{
+            
+            &:hover{
+                color: white;
+            }
+           
+        }
+    }
+}
