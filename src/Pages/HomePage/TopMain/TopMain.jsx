@@ -1,5 +1,5 @@
 import React from "react";
-
+import ImgMan from "/image/FirstImgMan.png"
 
 function TopMain(props) {
   return (
@@ -29,7 +29,7 @@ function TopMain(props) {
           <div className="absolute z-10 top-0 left-0">
             <img
               className=" object-cover w-[457px] h-[367px]"
-              src="/FirstImgMan.png"
+              src={ImgMan}
               alt=""
             />
           </div>

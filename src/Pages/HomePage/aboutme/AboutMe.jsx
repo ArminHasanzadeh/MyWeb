@@ -1,5 +1,5 @@
 import React from "react";
-
+import Img2 from "/image/img2.png"
 
 function AboutMe() {
   return (
@@ -29,7 +29,7 @@ function AboutMe() {
         </div>
         <div className=" w-[50%] h-auto flex justify-center items-center relative">
             <figure className="Img2 ">
-              <img src="/FirstImgMan.png" alt="" />
+              <img src={Img2} alt="" />
             </figure>
             <div className=" absolute  right-20 ">
               <svg width="104" height="56" viewBox="0 0 104 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,7 +112,7 @@ function AboutMe() {
         </div>
         <div className=" w-[50%] h-auto flex justify-center items-center relative max-sm:w-[80%]">
             <figure className="Img2 ">
-              <img src="/img2.png" alt="" />
+              <img src={Img2} alt="" />
             </figure>
             <div className=" absolute  right-20 ">
               <svg width="104" height="56" viewBox="0 0 104 56" fill="none" xmlns="http://www.w3.org/2000/svg">
