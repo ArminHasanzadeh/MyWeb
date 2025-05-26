@@ -56,7 +56,7 @@ function Header() {
                 <li><span>#</span><a className="text-white">contents</a></li>
               </ul>
             <div>
-              <div className='w-[100%] bottom-20 left-60 flex justify-center items-center flex-col absolute'>
+              <div className='w-[100%] mt-32 flex justify-center items-center flex-col '>
                     <p className='text-3xl pr-4 text-white'>Media</p>
                     <div className='flex justify-center items-center '>
                         <a href="" className='pr-2'>
