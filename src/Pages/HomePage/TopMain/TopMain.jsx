@@ -1,7 +1,8 @@
 import React from "react";
 import ImgMan from "/image/FirstImgMan.png"
-
+import { Link, useLocation } from "react-router-dom";
 function TopMain(props) {
+  const location = useLocation()
   return (
     <>
       <section className="w-full h-[420px] flex m-24  max-xl:hidden xl:visible ">
@@ -21,7 +22,7 @@ function TopMain(props) {
               He crafts responsive websites where technologies meet creativity
             </p>
             <button className="Content-me border-2 text-white mt-3 p-1">
-              Content me!!
+              <Link to="/Content">Content me!!</Link>
             </button>
           </div>
         </section>

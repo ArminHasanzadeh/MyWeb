@@ -9,7 +9,7 @@ function Skills() {
                 <h4 className='text-white text-4xl w-[10%] text-start'>Skills</h4>
                 <span className='Border-Project w-[30%] border-1 text-white text-start'></span>
             </div>
-           <div className='flex justify-center items-center w-full h-auto pl-44 pr-44 mt-10'>
+           <div className='flex justify-center items-center w-full h-auto pl-44 mt-10'>
                 <div className='w-[40%] flex justify-center items-center'>
                     <svg width="349" height="283" viewBox="0 0 349 283" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="2" cy="40" r="2" fill="#ABB2BF"/>

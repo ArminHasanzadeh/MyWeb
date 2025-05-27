@@ -28,8 +28,8 @@ function Header() {
           <ul className="flex justify-center items-center gap-5">
             <li><span>#</span><Link to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
             <li><span>#</span><Link to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
-            <li><span>#</span><Link>about-me</Link></li>
-            <li><span>#</span><Link>contents</Link></li>
+            <li><span>#</span><Link to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
+            <li><span>#</span><Link to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
           </ul>
         </div>
       </header>
@@ -56,10 +56,10 @@ function Header() {
           <div className={`Hamberger-Box absolute w-full  flex justify-center items-center z-[100] top-5 left-0   ${open ?"translate-x-0 ":"-translate-x-300"}`}>
             <div className="NavBar border-2 w-[95%] h-[95vh] bg-[var(--BgColor)] pl-6  text-5xl  flex justify-start items-start pt-20 flex-col">
               <ul className="flex flex-col items-start justify-center gap-5">
-                <li><span>#</span><Link to="/" className="text-white">home</Link></li>
-                <li><span>#</span><Link to="/work" className="text-white">works</Link></li>
-                <li><span>#</span><Link className="text-white">about-me</Link></li>
-                <li><span>#</span><Link className="text-white">contents</Link></li>
+                <li><span>#</span><Link to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
+                <li><span>#</span><Link to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
+                <li><span>#</span><Link to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
+                <li><span>#</span><Link to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
               </ul>
             <div>
               <div className='w-[100%] mt-32 flex justify-center items-center flex-col '>

@@ -1,16 +1,19 @@
 .About-Me{
     color: var(--FontTextColor );
    >div{
-     >button{
-        width: 150px;
-        height: 40px;
-        
-         border: 1px solid var(--FontTextcherColor);
-         margin-top: 10px;
-          transition: 0.5s;
-         &:hover{
-        background-color: rgba(199, 120, 221, 0.178);
-        }
+    >a{
+
+        >button{
+           width: 150px;
+           height: 40px;
+           
+            border: 1px solid var(--FontTextcherColor);
+            margin-top: 10px;
+             transition: 0.5s;
+            &:hover{
+           background-color: rgba(199, 120, 221, 0.178);
+           }
+       }
     }
     >span{
         color: #ffffff;
