@@ -167,7 +167,7 @@ function TopMain(props) {
         <section className="w-[80%] h-[50%] flex justify-center items-center ">
           <div className="TextBox  flex flex-col justify-center items-center pb-5 pt-5">
             <p className="text-3xl w-[60%] text-white ">
-              Elias is a{" "}
+              Armin is a{" "}
               <mark className="bg-transparent text-[var(--FontTextcherColor)]">
                 web designer
               </mark>{" "}

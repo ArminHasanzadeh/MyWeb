@@ -12,7 +12,7 @@ function Footer(props) {
 <path fill-rule="evenodd" clip-rule="evenodd" d="M39 0H26V13H13H0V26V39V52H13H26V39H39H52V26V13V0H39ZM13 39H26V26H39V13H26V26H13V39Z" fill="white"/>
                         </svg>
                         <p className='pl-2 text-white'>Armin</p>
-                        <a href="" className='text-[var(--FontTextColor)] pl-5'>Armin@Armin.com</a>
+                        <a href="" className='text-[var(--FontTextColor)] pl-5'>Arminhsnzadeh@gmail.com</a>
 
                     </div>
                     <div className='text-white pt-5'>
@@ -55,7 +55,7 @@ function Footer(props) {
 <path fill-rule="evenodd" clip-rule="evenodd" d="M39 0H26V13H13H0V26V39V52H13H26V39H39H52V26V13V0H39ZM13 39H26V26H39V13H26V26H13V39Z" fill="white"/>
                         </svg>
                         <p className='pl-2 text-white'>Armin</p>
-                        <a href="" className='text-[var(--FontTextColor)] pl-5 w-full'>Armin@Armin.com</a>
+                        <a href="" className='text-[var(--FontTextColor)] pl-5 w-full'>Arminhsnzadeh@gmail.com</a>
 
                     </div>
                     <div className='text-white pt-5 w-full '>

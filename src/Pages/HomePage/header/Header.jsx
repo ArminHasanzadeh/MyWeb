@@ -35,12 +35,12 @@ function Header() {
       </header>
 
     
-      <header className="w-full h-auto Hamberger-Menu sticky top-0 flex justify-center items-center p-7 z-50 xl:hidden flex-col">
-        <div className="w-full h-auto relative">
+      <header className="w-full h-[80px] Hamberger-Menu sticky top-0 flex justify-center items-center p-7 z-50 xl:hidden flex-col bg-[var(--BgColor)]">
+        <div className="w-full h-auto relative flex justify-start items-center">
           <button
-            className="box-click z-101 absolute"
+            className="box-click z-101 absolute "
             onClick={() => setOpen(!open)} >
-            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="45" height="45" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
@@ -54,12 +54,12 @@ function Header() {
        
         
           <div className={`Hamberger-Box absolute w-full  flex justify-center items-center z-[100] top-5 left-0   ${open ?"translate-x-0 ":"-translate-x-300"}`}>
-            <div className="NavBar border-2 w-[95%] h-[95vh] bg-[var(--BgColor)] pl-6  text-5xl  flex justify-start items-start pt-20 flex-col">
+            <div className="NavBar  w-[95%] h-[95vh] bg-[var(--BgColor)] pl-6  text-5xl  flex justify-start items-start pt-20 flex-col">
               <ul className="flex flex-col items-start justify-center gap-5">
-                <li><span>#</span><Link to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
-                <li><span>#</span><Link to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
-                <li><span>#</span><Link to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
-                <li><span>#</span><Link to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
+                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
+                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
+                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
+                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
               </ul>
             <div>
               <div className='w-[100%] mt-32 flex justify-center items-center flex-col '>
