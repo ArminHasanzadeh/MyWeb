@@ -68,7 +68,7 @@ function Work() {
                                 <span className='Hashtag text-4xl w-[3%] max-sm:w-[5%]'>#</span>
                                 <h2 className='text-white text-4xl w-[50%] text-start max-sm:w-[80%] max-sm:text-center'>small-Project</h2>
                             </div>
-                            <div className="w-[59%] h-auto Box-pr flex justify-start items-center max-md:flex-col max-sm:flex-col">
+                            <div className="w-[59%] h-auto Box-pr flex justify-start items-center max-md:flex-col max-sm:flex-col ml-25">
                                 <div className='flex justify-center items-start w-[300px] border-1 h-auto flex-col m-5'>
                                     <p className='w-full text-1xl border-1 pl-2 p-2'>GitHub Project</p>
                                         <div className='w-full  p-3 Project-Name'>
