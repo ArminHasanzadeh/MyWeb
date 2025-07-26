@@ -78,47 +78,47 @@ function Skills() {
                 <div className='w-[80%] h-auto p-10 flex '>
                     <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl m-3'>
                         <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
+                        <div className='p-2'>
+                            <p className='w-full'> Java script</p>
+                            
                         </div>
                     </div>
                     <div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl m-3'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                <h6 className='text-white p-2 border-1 w-full'>Frame Work</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>React</p>
+                                <p className='w-full'>Next</p>
                             </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl m-3'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                <h6 className='text-white p-2 border-1 w-full'>Library</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>ShadCN</p>
+                                <p className='w-full'>React Router</p>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl m-3'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                <h6 className='text-white p-2 border-1 w-full'>Css</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>tailwind</p>
+                                <p className='w-full'>bootstrap</p>
                             </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl m-3'>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
+                        <h6 className='text-white p-2 border-1 w-full'>Apps</h6>
+                        <div className='p-2'>
+                            <p className='w-full'>VsCod</p>
+                            <p className='w-full'>Trello</p>
                         </div>
                     </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl m-3'>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
+                        <h6 className='text-white p-2 border-1 w-full'>Deployment</h6>
+                        <div className='p-2'>
+                            <p className='w-full'>Vercel</p>
+                            <p className='w-full'></p>
                         </div>
                     </div>
                     </div>
@@ -199,59 +199,59 @@ function Skills() {
                 </div>
                 <div className='w-[80%] h-auto p-10 flex gap-4 max-sm:flex-col '>
                     <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
-                        </div>
+                        <h6 className='text-white p-2 border-1 w-full'>Library</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>ShadCN</p>
+                                <p className='w-full'>React Router</p>
+                            </div>
                          <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl mt-3 max-sm:hidden'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                <h6 className='text-white p-2 border-1 w-full'>Frame Work</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>React</p>
+                                <p className='w-full'>Next</p>
                             </div>
                         </div>
                          <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl max-sm:hidden max-md:hidden  lg:visible mt-3'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
-                            </div>
+                               <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
+                        <div className='p-2'>
+                            <p className='w-full'> Java script</p>
+                            
+                        </div>
                         </div>
                     </div>
                     <div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
-                            </div>
+                              <h6 className='text-white p-2 border-1 w-full'>Deployment</h6>
+                        <div className='p-2'>
+                            <p className='w-full'>Vercel</p>
+                            <p className='w-full'></p>
+                        </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl mt-3'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
-                            </div>
+                                 <h6 className='text-white p-2 border-1 w-full'>Apps</h6>
+                        <div className='p-2'>
+                            <p className='w-full'>VsCod</p>
+                            <p className='w-full'>Trello</p>
+                        </div>
                         </div>
                          <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl max-sm:hidden max-md:hidden lg:visible mt-3'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                  <h6 className='text-white p-2 border-1 w-full'>Css</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>tailwind</p>
+                                <p className='w-full'>bootstrap</p>
                             </div>
                         </div>
                     </div>
                     <div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  max-md:hidden max-lg:hidden'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
-                            </div>
+                             <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
+                        <div className='p-1'>
+                            <p className='w-full'> TypeScript Lua</p>
+                            <p className='w-full'> Python JavaScript</p>
+                        </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl mt-3 max-md:hidden max-lg:hidden max-sm:hidden'>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
+                         <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
                         <div className='p-1'>
                             <p className='w-full'> TypeScript Lua</p>
                             <p className='w-full'> Python JavaScript</p>

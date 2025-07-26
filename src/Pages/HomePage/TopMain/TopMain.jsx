@@ -1,5 +1,5 @@
 import React from "react";
-import ImgMan from "/image/FirstImgMan.png"
+import ImgMan from "/image/Img1.png"
 import { Link, useLocation } from "react-router-dom";
 function TopMain(props) {
   const location = useLocation()
@@ -9,7 +9,7 @@ function TopMain(props) {
         <section className="w-[80%] h-[100%] flex justify-center items-end flex-col">
           <div className="TextBox ">
             <p className="text-3xl w-[60%] text-white ">
-              Elias is a{" "}
+              Armin is a{" "}
               <mark className="bg-transparent text-[var(--FontTextcherColor)]">
                 web designer
               </mark>{" "}
@@ -123,7 +123,7 @@ function TopMain(props) {
         </section>
       </section>
       <section className="w-full h-auto  mt-20 flex-col flex justify-center items-center max-xl:hidden xl:visible">
-      <section className="flex justify-center items-end flex-col w-[50%]">
+      {/* <section className="flex justify-center items-end flex-col w-[50%]">
         <div className="BorderX relative  w-[100%] p-5 ">
           <div className="absolute -top-4 left-6">
           <svg
@@ -160,7 +160,7 @@ function TopMain(props) {
         <div className=" w-[20%] flex justify-center items-center BorderX2 p-4 ">
           <p className="text-4xl">dadadad</p>
         </div>
-      </section>
+      </section> */}
       </section>
 
       <section className="w-full h-[700px] flex  justify-center items-center xl:hidden max-sm:visible flex-col max-md:visible max-lg:visible ">
@@ -281,7 +281,7 @@ function TopMain(props) {
         </section>
       </section>
       <section className="w-full h-auto  mt-20 flex-col flex justify-center items-center max-sm:visible xl:hidden ">
-      <section className="flex justify-center items-end flex-col w-[50%]">
+      {/* <section className="flex justify-center items-end flex-col w-[50%]">
         <div className="BorderX relative  w-[100%] p-5 ">
           <div className="absolute -top-4 left-6">
           <svg
@@ -318,7 +318,7 @@ function TopMain(props) {
         <div className=" w-[100%]  flex justify-center items-center BorderX2 p-4 ">
           <p className="text-4xl">dadadad</p>
         </div>
-      </section>
+      </section> */}
       </section>
 
      

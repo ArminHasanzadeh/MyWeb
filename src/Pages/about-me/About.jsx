@@ -15,19 +15,24 @@ function About() {
       <div className="About-Me w-[60%] max-sm:w-full h-auto flex justify-center items-center text-1xl max-sm:flex-col ">
         <div className="w-[50%] max-sm:w-[80%]">
           <p className="pt-5 pb-5">Hello, I`m Armin</p>
-          <p className="pt-5 pb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto
-            quas harum impedit eius nostrum odio sed, ab repellendus hic cumque
-            ad quibusdam eligendi! Explicabo suscipit quaerat earum obcaecati
-            corporis!
-          </p>
-          <p className="pt-5 pb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto
-            quas harum impedit eius nostrum odio sed, ab repellendus hic cumque
-            ad quibusdam eligendi! Explicabo suscipit quaerat earum obcaecati
-            corporis!
-          </p>
-          <button className="flex p-2"> Read more <span className="ml-2"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ABB2BF"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></span></button>
+           <p className="pt-5 pb-5">
+              I am a front-end developer specializing in designing and
+              implementing user interfaces for the web. Using technologies such
+              as HTML, CSS, JavaScript, and frameworks like React and Next.js, I
+              build professional-looking websites with solid performance. I
+              place great importance on clean code and user-friendly design. My
+              goal is to deliver effective solutions for a strong presence on
+              the web.
+            </p>
+            <p className="pt-5 pb-5">
+              My expertise lies in creating websites that are fast, responsive,
+              and aligned with user needs. From simple projects to full web
+              applications, I focus on delivering smooth and functional user
+              experiences. I keep my knowledge up to date with the latest
+              front-end standards and technologies. Accuracy, organization, and
+              attention to detail are my top priorities in every project.
+            </p>
+          
         </div>
         <div className=" w-[50%] h-auto flex justify-center items-center relative max-sm:w-[80%]">
             <figure className="Img2 ">
@@ -164,41 +169,41 @@ function About() {
                 <div className='w-[80%] h-auto p-10 flex max-sm:w-full gap-3 justify-center items-start'>
                   <div className="flex flex-col gap-y-2">
                     <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl mb '>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
+                       <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
+                        <div className='p-2'>
+                            <p className='w-full'> Java script</p>
+                            
                         </div>
                       </div>
                          <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  xl:hidden '>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                               <h6 className='text-white p-2 border-1 w-full'>Frame Work</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>React</p>
+                                <p className='w-full'>Next</p>
                             </div>
                       </div>
                          <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl xl:hidden'>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                 <h6 className='text-white p-2 border-1 w-full'>Library</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>ShadCN</p>
+                                <p className='w-full'>React Router</p>
                             </div>
                       </div>
                   </div>
                     
                     <div className="max-sm:flex flex flex-col gap-y-2 ">
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                 <h6 className='text-white p-2 border-1 w-full'>Frame Work</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>React</p>
+                                <p className='w-full'>Next</p>
                             </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
+                                 <h6 className='text-white p-2 border-1 w-full'>Library</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>ShadCN</p>
+                                <p className='w-full'>React Router</p>
                             </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  xl:hidden'>
@@ -211,25 +216,25 @@ function About() {
                     </div>
                     <div className="flex flex-col gap-y-2 max-xl:hidden">
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                                <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                            <div className='p-1'>
-                                <p className='w-full'> TypeScript Lua</p>
-                                <p className='w-full'> Python JavaScript</p>
-                            </div>
+                              <h6 className='text-white p-2 border-1 w-full'>Deployment</h6>
+                        <div className='p-2'>
+                            <p className='w-full'>Vercel</p>
+                            <p className='w-full'></p>
+                        </div>
                         </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
+                        <h6 className='text-white p-2 border-1 w-full'>Apps</h6>
+                        <div className='p-2'>
+                            <p className='w-full'>VsCod</p>
+                            <p className='w-full'>Trello</p>
                         </div>
                     </div>
                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl '>
-                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
-                        <div className='p-1'>
-                            <p className='w-full'> TypeScript Lua</p>
-                            <p className='w-full'> Python JavaScript</p>
-                        </div>
+                        <h6 className='text-white p-2 border-1 w-full'>Css</h6>
+                            <div className='p-2'>
+                                <p className='w-full'>tailwind</p>
+                                <p className='w-full'>bootstrap</p>
+                            </div>
                     </div>
                     </div>
                 </div>
