@@ -1,6 +1,6 @@
 
 .NavBar{
-   
+   transition: 0.5s;
     >ul{
         gap: 3rem;
         >li{
@@ -8,6 +8,7 @@
             justify-content: center;
             align-content: center;
             cursor: pointer;
+            font-size: 30px;
             >span{
                
                 color: var(--FontTextcherColor);

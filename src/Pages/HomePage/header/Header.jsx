@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
      
-      <header className="w-full h-auto flex justify-center items-center p-7 sticky top-0 z-50 bg-[var(--BgColor)] max-xl:hidden">
+      <header className="w-full h-auto flex justify-center items-center p-7 sticky top-0 z-50 bg-[var(--BgColor)] max-xl:hidden ">
         <div className="w-[50%] flex items-center justify-start gap-3 text-2xl pl-40">
           <svg width="20" height="20" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -26,40 +26,47 @@ function Header() {
         </div>
         <div className="NavBar w-[50%] flex items-center justify-end pr-40">
           <ul className="flex justify-center items-center gap-5">
-            <li><span>#</span><Link to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
-            <li><span>#</span><Link to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
-            <li><span>#</span><Link to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
-            <li><span>#</span><Link to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
+            <li><span>#</span><Link reloadDocument to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
+            <li><span>#</span><Link reloadDocument to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
+            <li><span>#</span><Link reloadDocument to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
+            <li><span>#</span><Link reloadDocument to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
           </ul>
         </div>
       </header>
 
     
       <header className="w-full h-[80px] Hamberger-Menu sticky top-0 flex justify-center items-center p-7 z-50 xl:hidden flex-col bg-[var(--BgColor)]">
-        <div className="w-full h-auto relative flex justify-start items-center">
+        <div className="w-[20%]">
+          <span>
+            
+          </span>
+        </div>
+        <div className="w-[85%] h-auto relative flex justify-start items-center">
           <button
-            className="box-click z-101 absolute "
+            className={`box-click z-1 absolute ${open  ? "hidden" : "" }`}
             onClick={() => setOpen(!open)} >
-            <svg width="45" height="45" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M39 0H26V13H13H0V26V39V52H13H26V39H39H52V26V13V0H39ZM13 39H26V26H39V13H26V26H13V39Z"
-                fill="white"
-              />
-            </svg>
+           <svg xmlns="http://www.w3.org/2000/svg"  height="45" viewBox="0 -960 960 960" width="45" fill="#ffffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
           </button>
         </div>
 
        
         
-          <div className={`Hamberger-Box absolute w-full  flex justify-center items-center z-[100] top-5 left-0   ${open ?"translate-x-0 ":"-translate-x-300"}`}>
-            <div className="NavBar  w-[95%] h-[95vh] bg-[var(--BgColor)] pl-6  text-5xl  flex justify-start items-start pt-20 flex-col">
+          <div  className={`Hamberger-Box border  h-screen top-0  absolute w-full  flex-col justify-center items-center  left-0  `}>
+            <div className={`${open ? "opacity-100 visible" : "opacity-0 invisible"} w-full h-full  absolute bg-black/40 transition-all duration-300 `} onClick={() => setOpen(!open)}>
+              </div>
+            <div className={`NavBar transition-all w-[50%] h-[100vh] bg-[var(--BgColor)] pl-6  text-5xl  flex justify-start items-start flex-col pt-10 z-900 ${open ?"translate-x-0 ":"-translate-x-300"}`}>
+                <button
+            className="box-click flex justify-start items-center w-full h-[5%] mb-4 "
+            onClick={() => setOpen(!open)} >
+           <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45" fill="#ffffff">
+           <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+           </svg>
+          </button>
               <ul className="flex flex-col items-start justify-center gap-5">
-                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
-                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
-                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
-                <li><span>#</span><Link onClick={() => setOpen(!open)}  to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
+                <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
+                <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
+                <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
+                <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
               </ul>
             <div>
               <div className='w-[100%] mt-32 flex justify-center items-center flex-col '>
@@ -80,6 +87,7 @@ function Header() {
                 </div>
             </div>
             </div>
+            
           </div>
         
       </header>
