@@ -1,4 +1,3 @@
-
 import "./header/Header.css";
 import "./HomePage.css";
 import "./TopMain/TopMain.css";
@@ -15,22 +14,19 @@ import AboutMe from "./aboutme/AboutMe";
 import Contacts from "./contacts/Contacts";
 
 
-function  HomePage() {
+function HomePage() {
   return (
     <>
-      <main className=" flex justify-center items-end flex-col overflow-hidden">
-      
+      <main className=" flex justify-center items-center flex-col overflow-hidden">
+        
         <TopMain />
         <ProjectBox />
         <Skills />
         <AboutMe />
         <Contacts />
-        
       </main>
     </>
   );
 }
-
-
 
 export default HomePage;

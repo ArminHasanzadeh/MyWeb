@@ -12,8 +12,8 @@ function About() {
         <p className="text-[var(--FontTextColor)] mt-2">Who am i?</p>
         
       </div>
-      <div className="About-Me w-[60%] max-sm:w-full h-auto flex justify-center items-center text-1xl max-sm:flex-col ">
-        <div className="w-[50%] max-sm:w-[80%]">
+      <div className="About-Me w-[60%] max-sm:w-full h-auto flex justify-center items-center text-1xl max-sm:flex-col  ">
+        <div className="w-[50%] max-sm:w-[80%] ">
           <p className="pt-5 pb-5">Hello, I`m Armin</p>
            <p className="pt-5 pb-5">
               I am a front-end developer specializing in designing and

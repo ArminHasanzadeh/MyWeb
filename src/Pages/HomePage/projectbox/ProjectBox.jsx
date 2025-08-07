@@ -17,13 +17,13 @@ function ProjectBox() {
         </div>
         <section className="w-full h-auto mt-20 flex justify-center items-center flex-col xl:visible ">
          
-          <div className="flex Box-pr mt-5  h-auto w-[100%] justify-center items-start max-sm:flex-col max-sm:items-center max-md:flex-col max-md:items-center">
-            <div className="flex justify-center items-start w-[300px] border-1 h-auto flex-col m-5">
+          <div className="flex Box-pr mt-5  h-auto w-[100%] justify-center items-start max-sm:flex-col max-sm:items-center max-md:flex-col max-md:items-center ">
+            <div className="flex justify-center items-start w-[300px] border-1 h-auto flex-col m-5 ">
               <figure className="w-full h-[200px]">
                 <img className="w-full h-full bg-cover" src={Riera} alt="" />
               </figure>
               <p className="w-full text-1xl border-1 pl-2">Riera Projevt</p>
-              <div className="w-full  p-3 Project-Name">
+              <div className="w-full  p-3 Project-Name ">
                 <h6 className="text-2xl text-white pb-3">Parallax Project</h6>
                 <p>
                   Riera is a practice project and a UI prototype developed using
@@ -38,7 +38,7 @@ function ProjectBox() {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-center items-start w-[300px] border-1 h-auto flex-col m-5">
+            <div className="flex justify-center items-start w-[300px] border-1 h-auto flex-col m-5 ">
               <figure className="w-full h-[200px]">
                 <img className="w-full h-full bg-cover" src={McAlpine} alt="" />
               </figure>

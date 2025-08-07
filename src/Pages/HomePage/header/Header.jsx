@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
      
-      <header className="w-full h-auto flex justify-center items-center p-7 sticky top-0 z-50 bg-[var(--BgColor)] max-xl:hidden ">
+      <header className="w-full h-auto flex justify-center items-center p-7 sticky top-0 z-50 bg-white/10  max-xl:hidden" style={{ backdropFilter: "blur(4px)" }} >
         <div className="w-[50%] flex items-center justify-start gap-3 text-2xl pl-40">
           <svg width="20" height="20" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -35,7 +35,7 @@ function Header() {
       </header>
 
     
-      <header className="w-full h-[80px] Hamberger-Menu sticky top-0 flex justify-center items-center p-7 z-50 xl:hidden flex-col bg-[var(--BgColor)]">
+      <header className="w-full h-[80px] Hamberger-Menu sticky top-0 flex justify-center items-center p-7 z-50 xl:hidden flex-col bg-white/10 " style={{ backdropFilter: "blur(4px)" }}>
         <div className="w-[20%]">
           <span>
             
@@ -51,7 +51,7 @@ function Header() {
 
        
         
-          <div  className={`Hamberger-Box border  h-screen top-0  absolute w-full  flex-col justify-center items-center  left-0  `}>
+          <div  className={`Hamberger-Box border  h-screen top-0  absolute w-full  flex-col justify-center items-center  left-0  `} >
             <div className={`${open ? "opacity-100 visible" : "opacity-0 invisible"} w-full h-full  absolute bg-black/40 transition-all duration-300 `} onClick={() => setOpen(!open)}>
               </div>
             <div className={`NavBar transition-all w-[50%] h-[100vh] bg-[var(--BgColor)] pl-6  text-5xl  flex justify-start items-start flex-col pt-10 z-900 ${open ?"translate-x-0 ":"-translate-x-300"}`}>
