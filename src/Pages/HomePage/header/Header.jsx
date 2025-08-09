@@ -64,7 +64,7 @@ function Header() {
           </button>
               <ul className="flex flex-col items-start justify-center gap-5">
                 <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
-                <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
+                <li><span>#</span><Link  onClick={() => setOpen(!open)}  to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
                 <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/About" className={`${location.pathname === "/About" ? "!text-white" : ""}`} >about-me</Link></li>
                 <li><span>#</span><Link reloadDocument  onClick={() => setOpen(!open)}  to="/Content" className={`${location.pathname === "/Content" ? "!text-white" : ""}`} >contents</Link></li>
               </ul>
