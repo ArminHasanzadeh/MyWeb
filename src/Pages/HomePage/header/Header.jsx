@@ -24,7 +24,7 @@ function Header() {
           </svg>
           <p className="text-white">Armin</p>
         </div>
-        <div className="NavBar w-[50%] flex items-center justify-end pr-40">
+        <div className="NavBar w-[90%] flex items-center justify-end pr-40 ">
           <ul className="flex justify-center items-center gap-5">
             <li><span>#</span><Link reloadDocument to="/" className={`${location.pathname === "/" ? "!text-white" : ""}`}>home</Link></li>
             <li><span>#</span><Link reloadDocument to="/work" className={`${location.pathname === "/work" ? "!text-white" : ""}`} >works</Link></li>
