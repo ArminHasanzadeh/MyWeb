@@ -8,7 +8,7 @@ function AboutMe() {
       <section className="w-full h-auto mt-20 flex justify-center items-center flex-col  xl:visible ">
         <div className="w-[70%] flex justify-start items-center ">
           <span className="Hashtag text-4xl w-[3%] max-sm:w-[10%]">#</span>
-          <h4 className="text-white text-4xl w-[15%] max-sm:w-[100%] max-md:w-[25%]  text-start">
+          <h4 className="text-white text-4xl w-[25%] max-sm:w-[100%] max-md:w-[25%]  text-start">
             about-me
           </h4>
           <span className="Border-Project w-[40%] max-sm:hidden border-1 text-white text-start"></span>

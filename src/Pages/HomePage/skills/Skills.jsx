@@ -5,7 +5,7 @@ function Skills() {
     <>
         <section className='w-full h-auto mt-20 flex justify-center items-center flex-col xl:visible max-sm:flex-col pl-44 max-sm:p-0'>
             <div className='w-[80%] flex justify-start items-center  '>
-                <span className='Hashtag text-4xl w-[3%]  max-sm:w-[5%]'>#</span>
+                <span className='Hashtag text-4xl w-[3%]  max-sm:w-[5%] max-sm:p-5'>#</span>
                 <h4 className='text-white text-4xl w-[10%] text-start max-sm:w-full'>Skills</h4>
                 <span className='Border-Project w-[30%] border-1 text-white text-start max-sm:hidden'></span>
             </div>
@@ -75,23 +75,23 @@ function Skills() {
 <path d="M15 197.25V196.25H14V197.25H15ZM71.5 197.25H72.5V196.25H71.5V197.25ZM71.5 225.5V226.5H72.5V225.5H71.5ZM43.25 225.5V224.5H42.25V225.5H43.25ZM43.25 253.75H42.25V254.75H43.25V253.75ZM71.5 253.75H72.5V252.75H71.5V253.75ZM71.5 282V283H72.5V282H71.5ZM15 282H14V283H15V282ZM43.25 196.25H15V198.25H43.25V196.25ZM71.5 196.25H43.25V198.25H71.5V196.25ZM72.5 225.5V197.25H70.5V225.5H72.5ZM43.25 226.5H71.5V224.5H43.25V226.5ZM44.25 253.75V225.5H42.25V253.75H44.25ZM43.25 254.75H71.5V252.75H43.25V254.75ZM70.5 253.75V282H72.5V253.75H70.5ZM71.5 281H43.25V283H71.5V281ZM15 283H43.25V281H15V283ZM14 253.75V282H16V253.75H14ZM14 225.5V253.75H16V225.5H14ZM14 197.25V225.5H16V197.25H14Z" fill="#C778DD" mask="url(#path-55-outside-2_29_371)"/>
                     </svg>
                 </div>
-                <div className='w-[80%] h-auto p-10 flex max-sm:w-full gap-3 justify-center items-start '>
+                <div className='w-[80%] h-auto p-10 flex max-sm:w-full gap-3 justify-center items-start max-md:gap-0 '>
                   <div className="flex flex-col gap-y-2">
-                    <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl mb bg-gray-700/50'>
+                    <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl mb bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                        <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
                         <div className='p-2'>
                             <p className='w-full'> Java script</p>
                             
                         </div>
                       </div>
-                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  xl:hidden bg-gray-700/50'>
+                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  xl:hidden bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                                <h6 className='text-white p-2 border-1 w-full'>Frame Work</h6>
                             <div className='p-2'>
                                 <p className='w-full'>React</p>
                                 <p className='w-full'>Next</p>
                             </div>
                       </div>
-                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl xl:hidden bg-gray-700/50'>
+                         <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl xl:hidden bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                                  <h6 className='text-white p-2 border-1 w-full'>Library</h6>
                             <div className='p-2'>
                                 <p className='w-full'>ShadCN</p>
@@ -101,21 +101,21 @@ function Skills() {
                   </div>
                     
                     <div className="max-sm:flex flex flex-col gap-y-2 ">
-                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50'>
+                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                                  <h6 className='text-white p-2 border-1 w-full'>Frame Work</h6>
                             <div className='p-2'>
                                 <p className='w-full'>React</p>
                                 <p className='w-full'>Next</p>
                             </div>
                         </div>
-                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50'>
+                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                                  <h6 className='text-white p-2 border-1 w-full'>Library</h6>
                             <div className='p-2'>
                                 <p className='w-full'>ShadCN</p>
                                 <p className='w-full'>React Router</p>
                             </div>
                         </div>
-                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  xl:hidden bg-gray-700/50'>
+                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl  xl:hidden bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                                 <h6 className='text-white p-2 border-1 w-full'>Languages</h6>
                             <div className='p-1'>
                                 <p className='w-full'> TypeScript Lua</p>
@@ -124,21 +124,21 @@ function Skills() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-y-2 max-xl:hidden">
-                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50 '>
+                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                               <h6 className='text-white p-2 border-1 w-full'>Deployment</h6>
                         <div className='p-2'>
                             <p className='w-full'>Vercel</p>
                             <p className='w-full'></p>
                         </div>
                         </div>
-                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50'>
+                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                         <h6 className='text-white p-2 border-1 w-full'>Apps</h6>
                         <div className='p-2'>
                             <p className='w-full'>VsCod</p>
                             <p className='w-full'>Trello</p>
                         </div>
                     </div>
-                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50'>
+                        <div className='w-[180px] h-[100px] border-1 My-Skills-Name text-1xl bg-gray-700/50 max-md:w-[160px] max-md:h-[100px]'>
                         <h6 className='text-white p-2 border-1 w-full'>Css</h6>
                             <div className='p-2'>
                                 <p className='w-full'>tailwind</p>

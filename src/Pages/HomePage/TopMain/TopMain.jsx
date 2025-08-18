@@ -150,7 +150,7 @@ function TopMain(props) {
               <circle cx="82" cy="82" r="2" fill="#ABB2BF" />
             </svg>
           </div>
-          <div className="w-[70%] h-[10%] border-1 gap-3 mb-1 flex justify-start items-center pl-2 text-[var(--FontTextColor)] max-lg:h-auto max-lg:w-full">
+          <div className="w-[457px] h-[10%] border-1 gap-3 mb-1 flex justify-start items-center pl-2 text-[var(--FontTextColor)] max-lg:h-auto max-lg:w-full">
             <span className="w-[15px] h-[15px]  bg-[var(--FontTextcherColor)]"></span>
             <p className="text-[var(--FontTextColor)]">
               Currently working on{" "}
